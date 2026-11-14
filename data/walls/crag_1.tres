@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="WallSpec" format=3]
+
+[ext_resource type="Script" path="res://data/wall_spec.gd" id="1_spec"]
+[ext_resource type="Resource" path="res://data/rocks/granite.tres" id="2_rock"]
+
+[resource]
+script = ExtResource("1_spec")
+id = &"crag_1"
+display_name = "The first crag"
+height = 7.5
+width = 7.5
+rock = ExtResource("2_rock")
+face_width = Vector2(5.5, 7.0)
+band_length = Vector2(1.5, 3.0)
+slab_chance = 0.25
+overhang_chance = 0.3
+slab_degrees = Vector2(-22, -8)
+vertical_degrees = Vector2(-5, 6)
+overhang_degrees = Vector2(12, 28)
+hold_density = 4.0
+foot_density = 6.0
+smear_density = 4.0
+kneebars = Vector2i(3, 5)
+ledges = Vector2i(0, 0)

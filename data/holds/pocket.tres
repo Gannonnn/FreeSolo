@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="HoldType" format=3]
+
+[ext_resource type="Script" path="res://data/hold_type.gd" id="1_hold"]
+
+[resource]
+script = ExtResource("1_hold")
+id = &"pocket"
+display_name = "Pocket"
+shape = 4
+grip = 0.5
+direction_tolerance = 0.873
+finger_load = 1.0
+foot_quality = 0.3
+matchable = false
+radius = 0.045
+price = 4
+color = Color(0.95, 0.82, 0.25, 1)

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="HoldType" format=3]
+
+[ext_resource type="Script" path="res://data/hold_type.gd" id="1_hold"]
+
+[resource]
+script = ExtResource("1_hold")
+id = &"crimp"
+display_name = "Crimp"
+shape = 1
+grip = 0.45
+direction_tolerance = 0.698
+finger_load = 0.9
+foot_quality = 0.45
+matchable = false
+radius = 0.055
+price = 3
+color = Color(0.25, 0.5, 0.9, 1)

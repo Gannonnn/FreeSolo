@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="HoldType" format=3]
+
+[ext_resource type="Script" path="res://data/hold_type.gd" id="1_hold"]
+
+[resource]
+script = ExtResource("1_hold")
+id = &"sloper"
+display_name = "Sloper"
+shape = 2
+grip = 0.42
+direction_tolerance = 0.436
+finger_load = 0.35
+foot_quality = 0.35
+matchable = true
+radius = 0.1
+price = 3
+color = Color(0.6, 0.35, 0.75, 1)

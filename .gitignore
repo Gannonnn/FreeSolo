@@ -1,0 +1,6 @@
+# Godot cache and editor state
+.godot/
+/android/
+
+# Export output
+/build/

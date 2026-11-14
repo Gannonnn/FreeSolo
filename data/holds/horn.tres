@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="HoldType" format=3]
+
+[ext_resource type="Script" path="res://data/hold_type.gd" id="1_hold"]
+
+[resource]
+script = ExtResource("1_hold")
+id = &"horn"
+display_name = "Horn"
+shape = 9
+grip = 0.85
+direction_tolerance = 1.745
+finger_load = 0.2
+foot_quality = 0.6
+matchable = false
+radius = 0.06
+price = 3
+color = Color(0.7, 0.55, 0.4, 1)

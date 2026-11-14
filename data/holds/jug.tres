@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="HoldType" format=3]
+
+[ext_resource type="Script" path="res://data/hold_type.gd" id="1_hold"]
+
+[resource]
+script = ExtResource("1_hold")
+id = &"jug"
+display_name = "Jug"
+shape = 0
+grip = 0.95
+direction_tolerance = 1.309
+finger_load = 0.1
+foot_quality = 0.7
+matchable = true
+radius = 0.09
+price = 2
+color = Color(0.92, 0.55, 0.2, 1)

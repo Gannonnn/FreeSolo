@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="RockType" format=3]
+
+[ext_resource type="Script" path="res://data/rock_type.gd" id="1_rock"]
+
+[resource]
+script = ExtResource("1_rock")
+id = &"granite"
+display_name = "Granite"
+base_color = Color(0.62, 0.6, 0.57, 1)
+dark_color = Color(0.2, 0.19, 0.2, 1)
+light_color = Color(0.9, 0.88, 0.84, 1)
+accent_color = Color(0.66, 0.68, 0.46, 1)
+streak_color = Color(0.17, 0.16, 0.15, 1)
+grain = 0.85
+strata = 0.0
+streaks = 0.5
+lichen = 0.4
+lumpiness = 1.0
+jointing = 0.8
+fluting = 0.0
+crease_depth = 0.035
+crease_size = 0.9
+cracks = Vector2i(2, 4)
+flakes = Vector2i(2, 4)
+rails = Vector2i(1, 2)
+pocket_clusters = Vector2i(0, 1)
+tufa_lines = Vector2i(0, 0)
+hold_ids = Array[StringName]([&"edge", &"crimp", &"sloper", &"jug", &"flake", &"horn", &"pinch", &"pocket"])
+hold_weights = PackedFloat32Array(0.24, 0.22, 0.12, 0.12, 0.08, 0.08, 0.1, 0.04)
+rail_ids = Array[StringName]([&"edge", &"crimp"])
+rail_weights = PackedFloat32Array(0.6, 0.4)

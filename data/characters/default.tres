@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="CharacterDef" format=3]
+
+[ext_resource type="Script" path="res://data/character_def.gd" id="1_char"]
+[ext_resource type="Script" path="res://data/stats.gd" id="2_stats"]
+
+[sub_resource type="Resource" id="Resource_stats"]
+script = ExtResource("2_stats")
+fingers = 3
+power = 3
+endurance = 3
+core = 3
+footwork = 3
+
+[resource]
+script = ExtResource("1_char")
+id = &"default"
+display_name = "Climber"
+height = 1.75
+ape_index = 1.02
+starting_stats = SubResource("Resource_stats")
+starting_gear = 0

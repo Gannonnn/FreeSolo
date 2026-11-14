@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="HoldType" format=3]
+
+[ext_resource type="Script" path="res://data/hold_type.gd" id="1_hold"]
+
+[resource]
+script = ExtResource("1_hold")
+id = &"mono"
+display_name = "Mono pocket"
+shape = 4
+grip = 0.32
+direction_tolerance = 0.611
+finger_load = 1.0
+foot_quality = 0.1
+matchable = false
+radius = 0.028
+price = 5
+color = Color(0.95, 0.7, 0.2, 1)

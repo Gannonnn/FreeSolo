@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="RockType" format=3]
+
+[ext_resource type="Script" path="res://data/rock_type.gd" id="1_rock"]
+
+[resource]
+script = ExtResource("1_rock")
+id = &"limestone"
+display_name = "Limestone"
+base_color = Color(0.8, 0.76, 0.67, 1)
+dark_color = Color(0.48, 0.45, 0.4, 1)
+light_color = Color(0.93, 0.91, 0.86, 1)
+accent_color = Color(0.8, 0.55, 0.32, 1)
+streak_color = Color(0.36, 0.38, 0.42, 1)
+grain = 0.2
+strata = 0.35
+streaks = 0.75
+lichen = 0.25
+lumpiness = 0.8
+jointing = 0.3
+fluting = 0.7
+crease_depth = 0.022
+crease_size = 0.55
+cracks = Vector2i(0, 1)
+flakes = Vector2i(0, 1)
+rails = Vector2i(2, 3)
+pocket_clusters = Vector2i(4, 7)
+tufa_lines = Vector2i(2, 4)
+hold_ids = Array[StringName]([&"pocket", &"mono", &"jug", &"edge", &"crimp", &"pinch", &"sloper", &"horn"])
+hold_weights = PackedFloat32Array(0.24, 0.06, 0.16, 0.16, 0.12, 0.1, 0.08, 0.08)
+rail_ids = Array[StringName]([&"edge", &"crimp", &"jug"])
+rail_weights = PackedFloat32Array(0.5, 0.3, 0.2)

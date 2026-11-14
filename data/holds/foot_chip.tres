@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="HoldType" format=3]
+
+[ext_resource type="Script" path="res://data/hold_type.gd" id="1_hold"]
+
+[resource]
+script = ExtResource("1_hold")
+id = &"foot_chip"
+display_name = "Foot chip"
+shape = 5
+grip = 0.0
+direction_tolerance = 0.0
+finger_load = 0.0
+foot_quality = 0.5
+matchable = false
+radius = 0.03
+price = 1
+color = Color(0.78, 0.77, 0.74, 1)

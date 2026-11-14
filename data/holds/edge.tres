@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="HoldType" format=3]
+
+[ext_resource type="Script" path="res://data/hold_type.gd" id="1_hold"]
+
+[resource]
+script = ExtResource("1_hold")
+id = &"edge"
+display_name = "Edge"
+shape = 1
+grip = 0.68
+direction_tolerance = 0.785
+finger_load = 0.55
+foot_quality = 0.6
+matchable = true
+radius = 0.075
+price = 2
+color = Color(0.3, 0.6, 0.85, 1)
